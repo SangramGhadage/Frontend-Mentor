@@ -1,0 +1,68 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: hsl(217, 54%, 11%);
+}
+.wrapper {
+    position: relative;
+    width: 261px;
+    overflow: hidden;
+    border-radius: 15px;
+    padding: 25px 30px;
+    background: hsl(216, 50%, 16%);
+}
+.img-area {
+    height: 270px;
+    width: 100%;
+    margin-top: 1px;
+    overflow: hidden;
+    border-radius: 15px;
+}
+.img-area img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.title{
+    color: #fff;
+    margin-top: 10px;
+    font-weight: 400;
+    word-spacing: 5px;
+    font-size: 18px;
+}
+.discription{
+    color: hsl(215, 51%, 70%);
+}
+.layout{
+    display: flex;
+    justify-content: space-between;
+}
+.value{
+    color: hsl(178, 100%, 50%);
+}
+.days{
+    color: hsl(215, 51%, 70%);
+    display: flex;
+    align-items: center;
+}
+.days img{
+    padding-right: 5px;
+}
+.bottom{
+    display: flex;
+    align-items: center;
+}
+.avtar img{
+    width: 35px;
+}
+.name{
+    padding-left: 20px;
+}
+.creation{
+    color: hsl(215, 51%, 70%);
+}
+.name-{
+    color: #fff;
+}
